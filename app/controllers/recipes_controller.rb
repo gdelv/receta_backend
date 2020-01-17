@@ -13,6 +13,10 @@ class RecipesController < ApplicationController
     render json: @recipe
   end
 
+
+  # def showByName
+  # end
+
   # POST /recipes
   def create
     @recipe = Recipe.new(recipe_params)
